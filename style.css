@@ -1,21 +1,42 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 header {
   display: flex;
   flex-direction: row;
-  gap: 50px;
-  padding: 50px;
+  gap: 6svw;
+  padding: 4svh 4svw;
+  position: fixed;
 }
 
 nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 4svw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header h1 {
+  margin: 0;
+  text-shadow: 0px 0px 5px grey;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px 2px grey;
 }
 
 footer {
   text-align: center;
+  background-color: gray;
+}
+
+footer p {
+  margin: 0;
 }
 
 .page-bg {
@@ -26,17 +47,27 @@ footer {
   padding: 0;
   border: 0;
   margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.diversity {
+.read-more-panel {
+  padding-left: 5svw;
+  padding-top: 30svw;
+  position: absolute;
+}
+
+#diversity {
   background-image: url("https://inaturalist-open-data.s3.amazonaws.com/photos/413010475/large.jpeg");
 }
 
-.wasp-mimics {
+#mimicry {
   background-image: url("https://inaturalist-open-data.s3.amazonaws.com/photos/151847687/original.jpeg");
 }
 
-.larvae {
+#larvae {
   background-image: url("https://inaturalist-open-data.s3.amazonaws.com/photos/226995845/original.jpeg");
 }
 
@@ -47,4 +78,12 @@ footer {
   color: white;
   font-weight: bold;
   padding: 2svh 2svw;
+}
+
+h2,
+h3 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px grey;
 }
