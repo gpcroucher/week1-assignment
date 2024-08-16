@@ -80,6 +80,15 @@ footer p {
   padding: 2svh 2svw;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+button:hover {
+  text-decoration: underline;
+  color: grey;
+  background-color: ivory;
+}
+
 h2,
 h3 {
   color: black;
