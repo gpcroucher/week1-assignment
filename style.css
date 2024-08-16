@@ -39,3 +39,12 @@ footer {
 .larvae {
   background-image: url("https://inaturalist-open-data.s3.amazonaws.com/photos/226995845/original.jpeg");
 }
+
+.info-button {
+  border: 2px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  padding: 2svh 2svw;
+}
